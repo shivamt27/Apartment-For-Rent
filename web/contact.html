@@ -1,0 +1,41 @@
+<html>
+<body background="abcd.jpg">
+<h4>
+<b>Get in touch with us !<b><h4>
+We will be very happy to help you and assist you in your search. 
+Feel free to call us , mail us or simply complete the contact form:
+<pre>
+Contact TollFree:1800180180180
+ Email:pamil089@gmail.com
+ Phone No:989798890
+
+<form action="FeedbackServlet">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+  <button type="submit" class="btn">Register</button>
+</form>
+<div class="footer" >
+<p align=left><button onclick=goback()>Go back to previous page</button></p>
+<p align=right><button onclick=goforward()>Go forward</button></p>
+  <p>Copyright@shivam</p>
+</div>
+<script>function goforward()
+{
+window.history.forward();
+}
+function goback(){
+window.history.back(); }</script>
+</pre>
+</body>
+</html>
